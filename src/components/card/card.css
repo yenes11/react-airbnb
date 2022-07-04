@@ -1,0 +1,35 @@
+.gray {
+    color: gray;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 263px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.status {
+    position: absolute;
+    top: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    left: 10px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.info {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.star {
+    margin-right: 5px;
+}
